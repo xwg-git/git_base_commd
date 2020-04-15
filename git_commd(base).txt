@@ -27,8 +27,9 @@ Git克隆操作
   第一步 创建文件：touch file
   第二部 将文件放入暂存区：git add file
   第三步 将文件放入本地仓库：git commit -m '描述'
-  第四步 将文件存入远程git仓库：git push
+  第四步 将文件存入远程git仓库：git push origin 分支（-f参数强制覆盖远程git仓库的文件）
   ** git push 可能会出现问题，相关问题网上查找解决办法
+  ** git pull 取回远程主机某个分支的更新
   后续待更新。。。
   
   
