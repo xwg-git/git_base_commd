@@ -1,0 +1,34 @@
+基本信息设置（该设置在github仓库主页显示谁提交了该文件）
+  git config --global user.name 'xwg-git' // 设置用户名
+  git config --global user.email '99652349@qq.com' // 设置用户邮箱
+初始化一个新的Git仓库
+  新建文件夹： mkdir dir
+  进入该文件夹：  cd dir
+  初始化git： git init
+向仓库添加文件
+  创建文件到工作目录： touch file
+  添加文件到暂存区： git add file
+  添加文件到仓库： git commit -m '描述文字'
+  
+  **查看给git状态： git status
+  
+修改仓库文件
+  vi file（使用vi编辑命令修改文件并保存）
+  修改完成后通过git add 命令提交修改的文件到暂存区
+  使用git commit 命令提交修改的文件到仓库
+删除仓库文件
+  第一步：rm -rf file
+  第二部：git rm file
+  第三步：git commit -m '描述'
+Git克隆操作
+  将远程仓库（github对应的项目）复制到本地
+    git clone 仓库地址
+将本地仓库同步到git远程仓库中
+  第一步 创建文件：touch file
+  第二部 将文件放入暂存区：git add file
+  第三步 将文件放入本地仓库：git commit -m '描述'
+  第四步 将文件存入远程git仓库：git push
+  ** git push 可能会出现问题，相关问题网上查找解决办法
+  后续待更新。。。
+  
+  
